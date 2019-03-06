@@ -1,7 +1,7 @@
-def my_collect(languages)
-  languages = []
-  my_collect(languages) do |lang|
-    lang.upcase
+def my_collect(array)
+  array = []
+  my_collect(array) do |collection|
+    collection.upcase
   end
   return 
 
