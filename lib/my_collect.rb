@@ -1,5 +1,6 @@
 def my_collect(collection)
-  array = []
+  
+  new_collection = []
   my_collect(collection)
   end
   return 
