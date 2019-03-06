@@ -1,7 +1,6 @@
-def my_collect(array)
+def my_collect(collection)
   array = []
-  my_collect(array) do |collection|
-    collection.upcase
+  my_collect(collection)
   end
   return 
 
